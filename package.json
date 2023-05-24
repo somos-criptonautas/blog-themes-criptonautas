@@ -17,8 +17,8 @@
         "autoprefixer": "10.4.14",
         "beeper": "2.1.0",
         "concurrently": "8.0.1",
-        "cssnano": "6.0.0",
-        "gscan": "4.36.1",
+        "cssnano": "6.0.1",
+        "gscan": "4.36.3",
         "gulp": "4.0.2",
         "gulp-compile-handlebars": "0.6.1",
         "gulp-concat": "2.6.1",
@@ -27,14 +27,14 @@
         "gulp-stylelint": "13.0.0",
         "gulp-uglify": "3.0.2",
         "gulp-zip": "5.1.0",
-        "lerna": "6.6.1",
-        "postcss": "8.4.21",
+        "lerna": "6.6.2",
+        "postcss": "8.4.23",
         "postcss-easy-import": "4.0.0",
         "pump": "3.0.0",
-        "stylelint": "15.4.0",
+        "stylelint": "15.6.2",
         "stylelint-config-recess-order": "4.0.0",
-        "stylelint-config-standard": "32.0.0",
-        "yargs": "17.7.1"
+        "stylelint-config-standard": "33.0.0",
+        "yargs": "17.7.2"
     },
     "browserslist": [
         "defaults"
@@ -61,7 +61,8 @@
             "keyframe-block-no-duplicate-selectors": null,
             "import-notation": null,
             "keyframe-selector-notation": null,
-            "declaration-block-no-redundant-longhand-properties": null
+            "declaration-block-no-redundant-longhand-properties": null,
+            "media-feature-range-notation": "prefix"
         }
     },
     "renovate": {

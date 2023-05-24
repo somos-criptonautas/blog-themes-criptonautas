@@ -23,6 +23,16 @@ h6 {
     padding: 0;
 }
 
+.home-template #announcement-bar-root {
+    position: absolute;
+    right: 0;
+    left: 0;
+}
+
+#announcement-bar-root + .gh-site .gh-home {
+    padding-top: 48px;
+}
+
 .gh-home {
     display: grid;
     grid-template-columns: 2fr 3fr;
@@ -345,6 +355,7 @@ h6 {
     margin-top: 0.4rem;
     font-size: 2.4rem;
     font-weight: 800;
+    word-break: break-word;
 }
 
 .gh-card-link:hover .gh-card-title {
@@ -356,6 +367,7 @@ h6 {
     font-size: 1.7rem;
     line-height: 1.5;
     color: var(--color-secondary-text);
+    word-break: break-word;
 }
 
 .gh-article {

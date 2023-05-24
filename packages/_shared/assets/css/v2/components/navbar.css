@@ -195,6 +195,7 @@ Search                         LOGO                    Login Subscribe
 */
 
 .is-head-stacked.gh-head {
+    position: relative;
     height: auto;
 }
 
