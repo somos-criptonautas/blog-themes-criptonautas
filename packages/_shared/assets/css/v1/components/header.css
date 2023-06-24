@@ -421,10 +421,10 @@ Search                         LOGO                    Login Subscribe
     height: 30px;
     padding: 0;
     margin-right: -3px;
+    appearance: none;
     cursor: pointer;
     background-color: transparent;
     border: 0;
-    appearance: none;
 }
 
 .gh-burger::before,
